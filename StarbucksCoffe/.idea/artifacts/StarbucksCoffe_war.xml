@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="StarbucksCoffe:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>StarbucksCoffe</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="StarbucksCoffe-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="StarbucksCoffe:war exploded" />
+    </root>
+  </artifact>
+</component>
