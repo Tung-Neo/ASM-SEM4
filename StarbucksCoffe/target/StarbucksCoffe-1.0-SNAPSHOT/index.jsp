@@ -11,8 +11,8 @@
     <title>Connoisseur</title>
     <link href="styles/style.css" rel="stylesheet" type="text/css" media="screen" />
     <link href="styles/base.css" rel="stylesheet" type="text/css" media="screen" />
-<%--    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"--%>
-<%--          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">--%>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
 </head>
 
@@ -27,11 +27,10 @@
             <ul id="nav">
                 <li><a href="index.jsp" class="current">Home</a></li>
                 <li><a href="ProductControllerServlet">Product CRUD</a></li>
-                <li><a href="view-customer.jsp">View Cusrtomer</a></li>
+                <li><a href="ViewCustomerControllerServlet">View Cusrtomer</a></li>
                 <li><a href="about.jsp">About</a></li>
                 <li><a href="gallery.jsp">Gallery</a></li>
                 <li><a href="reviews.jsp">Reviews</a></li>
-                <li><a href="contact.jsp">Contact</a></li>
             </ul>
         </nav>
         <hgroup class="intro">
@@ -186,7 +185,6 @@
 				</span></span>
     </footer>
 </div>
->>>>>>> cd0f997ca4e98b5d1efc06c9b2e772bc3f77d6ea
 </body>
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"

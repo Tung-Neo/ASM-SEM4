@@ -25,7 +25,6 @@
                 <li><a href="about.jsp">About</a></li>
                 <li><a href="gallery.jsp">Gallery</a></li>
                 <li><a href="reviews.jsp">Reviews</a></li>
-                <li><a href="contact.jsp">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -43,7 +42,7 @@
                 <div class="right menu-order"><a class="button" href="#">Order Now</a></div>
                 <img src="images/menu/pizza2.jpg" class="left clear item" width="150" alt="">
                 <p class="left"> ${tempProduct.topping} + ${tempProduct.ice}  </p>
-                <p class="left">{tempProduct.information} </p>
+                <p class="left">${tempProduct.information} </p>
                 <div class="border3"></div>
             </c:forEach>
         </article>
