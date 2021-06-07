@@ -7,15 +7,6 @@
 </sql:query>
 <!DOCTYPE html>
 <head>
-<<<<<<< HEAD
-    <title>Starbuck Coffe</title>
-    <link type="text/css" rel="stylesheet" href="css/add-product-style.css">
-</head>
-<body>
-
-<a href="ProductControllerServlet">Product CRUD</a>
-<a href="ViewCustomerControllerServlet">View Customer</a>
-=======
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Connoisseur</title>
     <link href="styles/style.css" rel="stylesheet" type="text/css" media="screen" />
@@ -25,6 +16,10 @@
 
 </head>
 
+<<<<<<< HEAD
+<a href="ProductControllerServlet">Product CRUD</a>
+<a href="ViewCustomerControllerServlet">View Customer</a>
+=======
 <body>
 <div id="container">
     <header>
@@ -34,7 +29,6 @@
                 <li><a href="ProductControllerServlet">Product CRUD</a></li>
                 <li><a href="view-customer.jsp">View Cusrtomer</a></li>
                 <li><a href="about.jsp">About</a></li>
-                <li><a href="menu.jsp">Menu</a></li>
                 <li><a href="gallery.jsp">Gallery</a></li>
                 <li><a href="reviews.jsp">Reviews</a></li>
                 <li><a href="contact.jsp">Contact</a></li>

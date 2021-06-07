@@ -9,7 +9,9 @@
 <html>
 <head>
     <title>ADD PRODUCT</title>
+    <link href="styles/test.css" rel="stylesheet" type="text/css" media="screen" />
 </head>
+
 <body>
 <div id="container">
     <h3>Add Product</h3>
@@ -59,7 +61,10 @@
 
             <tr>
                 <td><label></label></td>
-                <td><input type="submit" value="Save" class="save" /></td>
+                <td>
+                    <input type="submit" value="Save" class="save" />
+                    <a href="ProductControllerServlet" class="link">Back to List</a>
+                </td>
             </tr>
 
             </tbody>
@@ -68,9 +73,7 @@
 
     <div style="clear: both;"></div>
 
-    <p>
-        <a href="ProductControllerServlet">Back to List</a>
-    </p>
+
 </div>
 </body>
 </html>
