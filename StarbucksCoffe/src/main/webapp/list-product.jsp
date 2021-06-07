@@ -50,7 +50,7 @@
                     <td> ${tempProduct.qty} </td><br>
                     <td>
                         <a href="${tempLink}">Update</a>
-                        |
+
                         <a href="${deleteLink}"
                            onclick="if (!(confirm('Are you sure you want to delete this product?'))) return false">
                             Delete</a>

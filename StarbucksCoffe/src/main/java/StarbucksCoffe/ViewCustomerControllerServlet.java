@@ -89,7 +89,7 @@ public class ViewCustomerControllerServlet extends HttpServlet {
 
             request.setAttribute("PRODUCT_LIST", products);
 
-            RequestDispatcher dispatcher = request.getRequestDispatcher("/list-product.jsp");
+            RequestDispatcher dispatcher = request.getRequestDispatcher("/view-customer.jsp");
             dispatcher.forward(request, response);
         }
     }

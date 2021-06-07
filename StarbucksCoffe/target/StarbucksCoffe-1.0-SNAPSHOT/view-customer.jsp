@@ -1,17 +1,14 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/sql" prefix="sql" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <html>
 <head>
     <title>Starbuck Coffe</title>
 </head>
-<sql:query var="rs" dataSource="jdbc/asm">
-    select * from product
-</sql:query>
+
 <body>
 <div>
 
-                <c:forEach var="tempStudent" items="${STUDENT_LIST}">
+                <c:forEach var="tempProduct" items="${PRODUCT_LIST}">
                     <div>
                         <br>
                             <h2><td> ${tempProduct.category} </td></h2></br>
@@ -22,7 +19,11 @@
                             <td> ${tempProduct.qty} </td><br>
                         </tr>
                     </div>
-
+                    <c:url var="addtocart" value="CartController">
+                        <c:param name="command" value="ADD"/>
+                        <c:param name="id" value="${tempProduct.id}"/>
+                    </c:url>
+                    <a href="${addtocart}">Add to Cart</a>
                 </c:forEach>
 
             </div>

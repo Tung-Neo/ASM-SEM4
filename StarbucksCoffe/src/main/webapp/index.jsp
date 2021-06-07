@@ -14,6 +14,6 @@
 <body>
 
 <a href="ProductControllerServlet">Product CRUD</a>
-<a href="view-customer.jsp">View Cusrtomer</a>
+<a href="ViewCustomerControllerServlet">View Customer</a>
 </body>
 </html>
