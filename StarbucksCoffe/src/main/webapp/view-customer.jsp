@@ -20,7 +20,6 @@
         <nav>
             <ul id="nav">
                 <li><a href="index.jsp" class="current">Home</a></li>
-                <li><a href="ProductControllerServlet">Product CRUD</a></li>
                 <li><a href="view-customer.jsp">View Cusrtomer</a></li>
                 <li><a href="about.jsp">About</a></li>
                 <li><a href="gallery.jsp">Gallery</a></li>

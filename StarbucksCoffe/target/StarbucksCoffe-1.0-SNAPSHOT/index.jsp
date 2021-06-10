@@ -16,17 +16,12 @@
 
 </head>
 
-<<<<<<< HEAD
-<a href="ProductControllerServlet">Product CRUD</a>
-<a href="ViewCustomerControllerServlet">View Customer</a>
-=======
 <body>
 <div id="container">
     <header>
         <nav>
             <ul id="nav">
                 <li><a href="index.jsp" class="current">Home</a></li>
-                <li><a href="ProductControllerServlet">Product CRUD</a></li>
                 <li><a href="ViewCustomerControllerServlet">View Cusrtomer</a></li>
                 <li><a href="about.jsp">About</a></li>
                 <li><a href="gallery.jsp">Gallery</a></li>

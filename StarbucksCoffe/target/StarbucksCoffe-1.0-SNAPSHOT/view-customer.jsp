@@ -20,7 +20,6 @@
         <nav>
             <ul id="nav">
                 <li><a href="index.jsp" class="current">Home</a></li>
-                <li><a href="ProductControllerServlet">Product CRUD</a></li>
                 <li><a href="view-customer.jsp">View Cusrtomer</a></li>
                 <li><a href="about.jsp">About</a></li>
                 <li><a href="gallery.jsp">Gallery</a></li>
@@ -36,8 +35,8 @@
                     <h3>${tempProduct.productName} $${tempProduct.qty}</h3>
                 </div>
                 <div class="left star"><img src="images/star_full.png" class="noeffects" alt=""><img
-                        src="images/star_full.png" class="noeffects" alt=""><img src="images/star_full.png"
-                                                                                 class="noeffects" alt=""><img src="images/star_half_full.png" class="noeffects" alt=""><img
+                        src="images/star_full.png" class="noeffects" alt="">
+                    <img src="images/star_full.png" class="noeffects" alt=""><img src="images/star_half_full.png" class="noeffects" alt=""><img
                         src="images/star_empty.png" class="noeffects" alt=""></div>
                 <div class="right menu-order"><a class="button" href="${addtocart}">Order Now</a></div>
                 <img src="images/menu/pizza2.jpg" class="left clear item" width="150" alt="">

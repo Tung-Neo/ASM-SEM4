@@ -16,15 +16,6 @@
 <div id="container">
 
 
-
-<%--            <tr>--%>
-<%--                <th></th>--%>
-<%--                <th>Last Name</th>--%>
-<%--                <th>Email</th>--%>
-<%--                <th>Action</th>--%>
-<%--            </tr>--%>
-
-
                 <div id="wrapper">
                     <h1>Product-List</h1>
 
@@ -81,25 +72,7 @@
                            class="add-student-button"
                     />
                 <div>
-
-
-<%--                <tr>--%>
-<%--                    <h2><td> ${tempProduct.category} </td></h2></br>--%>
-<%--                    <h3><td> ${tempProduct.productName} </td></h3></br>--%>
-<%--                    <td> ${tempProduct.information} </td><br>--%>
-<%--                    <td> ${tempProduct.ice} </td><br>--%>
-<%--                    <td> ${tempProduct.topping} </td><br>--%>
-<%--                    <td> ${tempProduct.qty} </td><br>--%>
-<%--                    <td>--%>
-<%--                        <a href="${tempLink}">Update</a>--%>
-
-<%--                        <a href="${deleteLink}"--%>
-<%--                           onclick="if (!(confirm('Are you sure you want to delete this product?'))) return false">--%>
-<%--                            Delete</a>--%>
-<%--                    </td>--%>
-<%--                    <td>-------</td><br>--%>
-<%--                </tr>--%>
-<%--                <hr>--%>
+                    <button><a href="index.jsp" class="current">Back to Home</a></button>
 
 
 
